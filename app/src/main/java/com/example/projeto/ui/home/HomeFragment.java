@@ -154,6 +154,7 @@ public class HomeFragment extends Fragment {
                 .setSmallIcon(R.drawable.ic_notification)
                 .setContentTitle(Notificacao)
                 .setContentText(Texto)
+                .setColor(222)
                 .setPriority(NotificationCompat.PRIORITY_HIGH);
 
         int importance = NotificationManager.IMPORTANCE_DEFAULT;
