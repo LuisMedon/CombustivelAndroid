@@ -1,0 +1,58 @@
+<resources>
+    <string name="app_name">Project</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Carro</string>
+    <string name="title_notifications">Calculadora</string>
+    <string name="cha">CHANNEL</string>
+
+    // DASHBORD
+    <string name="btnAdicionarCarro">Adicionar</string>
+
+    <string name="nomeCarro">Carro</string>
+    <string name="combustivelCarro">Combustivel :</string>
+    <string name="capacidadeTanque">Capacidade do Tanque</string>
+    <string name="marcaCarro">Marca do Carro</string>
+    <string name="modeloCarro">Modelo do Carro</string>
+    <string name="matriculaCarro">Matricula</string>
+    <string name="mesCarro">Mes :</string>
+    <string name="anoCarro">Ano :</string>
+
+    <string-array name="anoSpinner">
+        <item>1111</item>
+
+    </string-array>
+
+    <string-array name="mesSpinner">
+        <item>01</item>
+        <item>02</item>
+        <item>03</item>
+        <item>04</item>
+        <item>05</item>
+        <item>06</item>
+        <item>07</item>
+        <item>08</item>
+        <item>09</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+    </string-array>
+
+
+    <string-array name="oprSpinner">
+        <item>Gasolina</item>
+        <item>Diesel</item>
+    </string-array>
+
+
+    // NOTIFICATIONS
+    <string name="Litros">Quanto gastou ?  (euros)</string>
+    <string name="kilometros">Kilometros </string>
+    <string name="preco">Preço do Combustivel  (litro)</string>
+    <string name="atestou">Encheu o Deposito ?</string>
+    <string name="btnCalcular">Calcular</string>
+
+    //HOME
+    <string name="btnInf">Informaçoes</string>
+
+
+</resources>
