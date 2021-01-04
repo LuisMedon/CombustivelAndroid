@@ -45,7 +45,6 @@ import static androidx.core.content.ContextCompat.getSystemService;
 
 public class HomeFragment extends Fragment {
 
-    private static final String CHANNEL_ID = "CHA" ;
     private HomeViewModel homeViewModel;
     private MyDBHelper myDBHelper;
 
