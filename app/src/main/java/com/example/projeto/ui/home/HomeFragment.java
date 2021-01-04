@@ -45,7 +45,6 @@ import static androidx.core.content.ContextCompat.getSystemService;
 
 public class HomeFragment extends Fragment {
 
-    private static final String CHANNEL_ID = "CHA" ;
     private HomeViewModel homeViewModel;
     private MyDBHelper myDBHelper;
 
@@ -155,6 +154,7 @@ public class HomeFragment extends Fragment {
                 .setSmallIcon(R.drawable.ic_notification)
                 .setContentTitle(Notificacao)
                 .setContentText(Texto)
+                .setColor(222)
                 .setPriority(NotificationCompat.PRIORITY_HIGH);
 
         int importance = NotificationManager.IMPORTANCE_DEFAULT;
